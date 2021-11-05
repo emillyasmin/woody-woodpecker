@@ -1,0 +1,67 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Titan One', cursive;
+}
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+img {
+  display: block; /* tira uma pequena margem da imagem */
+  max-width: 100%;
+}
+
+/* Header */
+.header {
+  position: fixed; /* o elemento não se move ao dar scroll no mouse */
+  top: 0;
+  width: 100%;
+  background: #CF0106;
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.marca {
+  color: #fff;
+  font-family: 'Titan One', cursive;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  border: 3px solid #fff;
+  padding: 10px 0;
+}
+
+.header_menu ul {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 18px;
+}
+
+.header_menu ul li a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px 0;
+}
+
+.header_menu ul li a:hover,
+.header_menu ul li a .menu_ativo {
+  border-bottom: 2px solid #fff;
+}
+
+/* Home */
