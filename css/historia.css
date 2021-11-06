@@ -1,0 +1,28 @@
+/* História */
+.titulo_historia {
+  background: url(../img/bg-historia.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.historia {
+  padding: 50px 0px 30px 0px;
+}
+
+.historia h2 {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.historia p,
+.historia img,
+.historia iframe {
+  margin-bottom: 20px;
+}
+
+.azul {
+  background: #92d3cf;
+  padding: 40px 0px 20px 0px;
+}
