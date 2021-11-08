@@ -12,7 +12,8 @@ p {
   line-height: 25px;
 }
 
-img {
+img,
+iframe {
   display: block; /* tira uma pequena margem da imagem */
   max-width: 100%;
 }
@@ -109,14 +110,49 @@ img {
   line-height: 40px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
-.titulo-interno h1:after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 3px;
-  background: #fff;
-  margin: 10px auto;
+/* Footer */
+.footer_cred {
+  background: url(../img/creditos.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+}
+
+.creditos {
+  border-left: #CF0106 solid 5px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.creditos li:nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #CF0106;
+  letter-spacing: 0.1em;
+}
+
+.creditos li,
+.creditos a {
+  color: #fff;
+  padding: 8px 0px;
+  font-size: 16px;
+}
+
+.creditos a:hover {
+  color: #CF0106;
+}
+
+.footer_copy {
+  background: #000;
+  width: 100%;
+  color: #fff;
+}
+
+.footer_copy p {
+  font-size: 14px;
+  padding: 20px 0px;
 }

@@ -16,9 +16,18 @@
   margin-bottom: 20px;
 }
 
+.historia img {
+  margin-bottom: 5px;
+}
+
+.historia span {
+  font-size: 14px;
+  font-style: italic;
+}
+
 .historia p,
-.historia img,
-.historia iframe {
+.historia iframe,
+.historia span {
   margin-bottom: 20px;
 }
 
