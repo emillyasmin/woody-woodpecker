@@ -1,0 +1,27 @@
+/* Episódios */
+.titulo_episodios {
+  background: url(../img/bg-episodios.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.episodios {
+  padding: 50px 0px 20px 0px;
+}
+
+.episodios h3 {
+  font-size: 18px;
+  padding: 5px 0px;
+}
+
+.episodios table,
+.episodios p {
+  margin-bottom: 30px;
+}
+
+.episodios table tbody tr {
+  border-color: #A2A9B1;
+}
+
+.episodios table tbody tr th {
+  background: #92d3cf;
+}
