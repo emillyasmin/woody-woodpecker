@@ -1,0 +1,41 @@
+/* Frases */
+.titulo_frases {
+  background: url(../img/bg-frases.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.frases {
+  padding: 50px 0px;
+}
+
+.frases .intro::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  margin-top: 40px;
+}
+
+.frases blockquote::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  margin-top: 40px;
+}
+
+.frases blockquote p {
+  max-width: 640px;
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.frases blockquote cite {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+}
