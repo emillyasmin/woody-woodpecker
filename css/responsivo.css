@@ -62,4 +62,31 @@
   padding-right: 0px;
 }
 
+/* Título Interno */
+.titulo-interno {
+  margin-top: 0px;
+}
+
+/* Footer */
+.creditos {
+  border-left: none;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.creditos li:nth-child(1) {
+  font-size: 16px;
+}
+
+.creditos li,
+.creditos a {
+  padding: 5px 0px;
+  font-size: 14px;
+}
+
+.footer_copy p {
+  padding: 0px;
+  padding-top: 18px;
+}
+
 }
