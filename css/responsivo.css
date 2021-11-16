@@ -1,0 +1,65 @@
+/* Estilo para tablets */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+/* Home */
+.home {
+  padding: 295px 0 65px 0;
+}
+
+}
+
+/* Estilo para smartphone */
+@media only screen and (max-width: 787px) {
+/* Header */
+.header {
+  position: relative;
+  padding: 30px 0 5px 0;
+  text-align: center;
+}
+
+.header_menu ul {
+  text-align: center;
+}
+
+.header_menu ul li {
+  margin-left: 12px;
+  margin-top: 30px;
+}
+
+/* Home */
+@keyframes changeBackground {
+  0% {
+    background: url(../img/bg-home-1-mobile.jpg) center no-repeat;
+    background-size: cover;
+  }
+  35% {
+    background: url(../img/bg-home-2-mobile.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+  75% {
+    background: url(../img/bg-home-3-mobile.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+  100% {
+    background: url(../img/bg-home-1-mobile.jpg) center no-repeat;
+    background-size: cover;
+  }
+}
+
+.home {
+  margin-top: 0px;
+  padding: 90px 0 65px 0;
+  text-align: center;
+}
+
+.home h1::after {
+  width: 110px;
+  margin: 13px auto 25px auto;
+}
+
+.home p {
+  padding-right: 0px;
+}
+
+}
