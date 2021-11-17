@@ -89,4 +89,26 @@
   padding-top: 18px;
 }
 
+/* Episódios */
+.episodios table tbody tr {
+  font-size: 14px;
+}
+
+.episodios table tbody tr th:nth-child(1),
+.episodios table tbody tr td:nth-child(1),
+.episodios table tbody tr th:nth-child(6),
+.episodios table tbody tr td:nth-child(6) {
+  font-size: 0px;
+}
+
+/* Frases */
+.frases blockquote p {
+  max-width: 100%;
+}
+
+.frases blockquote cite {
+  display: block;
+  margin-top: 3px;
+}
+
 }
