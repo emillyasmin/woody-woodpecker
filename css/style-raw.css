@@ -1,0 +1,194 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Titan One', cursive;
+}
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+img,
+iframe {
+  display: block; /* tira uma pequena margem da imagem */
+  max-width: 100%;
+}
+
+/* Header */
+.header {
+  position: fixed; /* o elemento não se move ao dar scroll no mouse */
+  top: 0;
+  width: 100%;
+  background: #CF0106;
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.marca {
+  color: #fff;
+  font-family: 'Titan One', cursive;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  border: 3px solid #fff;
+  padding: 10px;
+}
+
+.header_menu ul {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 18px;
+}
+
+.header_menu ul li a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px 0;
+}
+
+.header_menu ul li a:hover,
+.header_menu ul li .menu_ativo {
+  border-bottom: 2px solid #fff;
+}
+
+/* Home */
+@keyframes changeBackground {
+  0% {
+    background: url(../img/bg-home-1.jpg) center no-repeat;
+    background-size: cover;
+  }
+  35% {
+    background: url(../img/bg-home-2.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+  75% {
+    background: url(../img/bg-home-3.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+  100% {
+    background: url(../img/bg-home-1.jpg) center no-repeat;
+    background-size: cover;
+  }
+}
+
+.home {
+  margin-top: 86px;
+  width: 100%;
+  height: 100%;
+  padding: 330px 0 65px 0;
+  background-size: cover;
+  color: #fff;
+  animation: changeBackground 8s infinite; /* propriedade de animação */
+}
+
+.home h1 {
+  font-size: 48px;
+  line-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.home h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #fff;
+  margin: 13px 0 25px 0;
+}
+
+.home p {
+  padding-right: 60px;
+}
+
+/* Título Interno */
+.titulo-interno {
+  margin-top: 86px;
+  width: 100%;
+  height: 160px;
+  text-align: center;
+  color: #fff;
+}
+
+.titulo-interno h1 {
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-top: 65px;
+}
+
+/* Footer */
+.footer_cred {
+  background: url(../img/creditos.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+}
+
+.creditos {
+  border-left: #CF0106 solid 5px;
+  padding: 10px;
+  margin-top: 17px;
+}
+
+.creditos li:nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #CF0106;
+  letter-spacing: 0.1em;
+}
+
+.creditos li,
+.creditos a {
+  color: #fff;
+  padding: 8px 0px;
+  font-size: 15px;
+}
+
+.creditos a:hover {
+  color: #CF0106;
+}
+
+.footer_copy {
+  background: #000;
+  width: 100%;
+  color: #fff;
+}
+
+.footer_copy p {
+  font-size: 14px;
+  padding: 20px 0px;
+}
+
+/* Animação js */
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
+}
